@@ -20,11 +20,29 @@
 
 }
 
+.stdpadding {
+
+	margin: 0px;
+	padding: 10px 5px 2px 5px;
+
+}
+
 
 .tablerow {
 
 	margin: 0px;
 	padding: 10px 5px 2px 5px;
+
+	border-style: solid;
+	border-width: 1px;
+	border-color: #efefef;
+	border-bottom: none;
+}
+
+.tableheader {
+
+	margin: 0px;
+	padding: 5px 5px 10px 5px;
 
 	border-style: solid;
 	border-width: 1px;
