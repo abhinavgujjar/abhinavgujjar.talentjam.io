@@ -1,0 +1,35 @@
+
+.talentjambutton {
+	border-radius: 2px;
+	border-style: solid;
+	border-width: 1px;
+
+	color: #ffffff !important;
+	background-color: #ff9900 !important;
+	border-color: #ffffff !important;
+
+	padding: 10px 5px !important;
+	height: 100px;
+
+	
+	
+}
+
+.talentjambutton:hover {
+
+	background-color: #ff9000 !important;
+	border-color: #cccccc !important;
+
+}
+
+a:hover{
+
+	text-decoration: underline;
+
+}
+
+.tablerow {
+
+	margin: 0px;
+	padding: 3px;
+}
