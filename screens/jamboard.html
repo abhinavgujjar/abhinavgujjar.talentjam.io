@@ -28,564 +28,573 @@
 
 
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-      <![endif]-->
-
-      <script src="../assets/components/library/jquery/jquery.min.js?v=v2.3.0"></script>
-      <script src="../assets/components/library/jquery/jquery-migrate.min.js?v=v2.3.0"></script>
-      <script src="../assets/components/library/modernizr/modernizr.js?v=v2.3.0"></script>
-      <script src="../assets/components/plugins/less-js/less.min.js?v=v2.3.0"></script>
-      <script src="../assets/components/modules/admin/charts/flot/assets/lib/excanvas.js?v=v2.3.0"></script>
-      <script src="../assets/components/plugins/browser/ie/ie.prototype.polyfill.js?v=v2.3.0"></script>	<script>if (/*@cc_on!@*/false && document.documentMode === 10) { document.documentElement.className+=' ie ie10'; }</script>
-
-  </head>
-  <body class="document-body ">
-
-    <!-- Main Container Fluid -->
-    <div class="container-fluid menu-hidden sidebar-hidden-phone fluid menu-left">
-
-<!-- Sidebar menu & content wrapper -->
-      <div id="wrapper">
-        
-        <!-- Sidebar Menu -->
-        <div id="menu" class="hidden-print">
-          
-          <!-- Brand -->
-          <a href="index.html?lang=en" class="appbrand"><span class="text-primary">FLAT</span> <span>KIT</span></a>
-          
-          <!-- Scrollable menu wrapper with Maximum height -->
-          <!-- <div class="slim-scroll" data-scroll-height="800px"> -->
-          <div class="slim-scroll">
-            
-            <!-- Menu Toggle Button -->
-            <button type="button" class="btn btn-navbar">
-              <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
-            </button>
-            <!-- // Menu Toggle Button END -->
-            
-            <!-- Sidebar Profile -->
-            <span class="profile center">
-              <a href="my_account_advanced.html?lang=en"><img class="img-responsive" src="../assets/images/avatar-74x74.jpg" alt="Avatar" /></a>
-            </span>
-            <!-- // Sidebar Profile END -->
-            
-            <!-- Menu -->
-            <ul>
-              
-              <li class="hasSubmenu">
-                <a data-toggle="collapse" href="#menu_dashboard" class="glyphicons dashboard"><i></i><span>Dashboard</span><span class="fa fa-chevron-down"></span></a>
-                <ul class="collapse" id="menu_dashboard">
-                  <li class=""><a href="index.html?lang=en">Default</a></li>
-                  <li class=""><a href="dashboard_analytics.html?lang=en">Analytics</a></li>
-                  <li class=""><a href="dashboard_users.html?lang=en">Users</a></li>
-                  <li class=""><a href="dashboard_overview.html?lang=en">Overview</a></li>
-                </ul>
-              </li>
-
-              
-              <li class="hasSubmenu active">
-                <a href="#menu_pages" data-toggle="collapse" class="glyphicons notes"><i></i><span>Pages</span><span class="fa fa-chevron-down"></span></a>
-                <ul class="collapse in" id="menu_pages">
-
-                 
-                  <li><a href="surveys_multiple.html?lang=en" class="glyphicons circle_question_mark"><i></i>Survey</a></li>
-                  <li><a href="events.html?lang=en" class="glyphicons calendar"><i></i>Events</a></li>
-                  <li><a href="employees.html?lang=en" class="glyphicons group"><i></i>Employees</a></li>
-                  <li><a href="typography.html?lang=en" class="glyphicons font"><i></i>Typography</a></li>
-                  <li><a href="calendar.html?lang=en" class="glyphicons calendar"><i></i>Calendar</a></li>
-                  
-                  
-                  <li><a href="error.html?lang=en" class="glyphicons warning_sign"><i></i>Error page</a></li>
-                  <!-- <li><a href="blank.html?lang=en" class="glyphicons magic"><i></i>Blank page</a></li> -->
-                </ul>
-              </li>
-
-
-              
-            </ul>
-            <div class="clearfix"></div>
-            <!-- // Menu END -->
-            
-           
-          </div>
-          <!-- // Scrollable Menu wrapper with Maximum Height END -->
-          
-        </div>
-        <!-- // Sidebar Menu END -->
-      <!-- Content -->
-      <div id="content">
-
-        <!-- Top navbar -->
-          <div class="navbar main hidden-print">
-
-            <!-- Menu Toggle Button -->
-            <button type="button" class="btn btn-navbar pull-left visible-xs">
-              <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
-            </button>
-            <!-- // Menu Toggle Button END -->
-            
-            <!-- Full Top Style -->
-            <ul class="topnav pull-left">
-
-              <li class="dropdown dd-1">
-                <a data-toggle="dropdown" class="dropdown-toggle glyphicons dashboard"><i></i>Dashboard <span class="caret"></span></a>
-                <ul class="dropdown-menu pull-left">
-                  <li class=""><a href="index.html?lang=en">Default</a></li>
-                  <li class=""><a href="dashboard_analytics.html?lang=en">Analytics</a></li>
-                  <li class=""><a href="dashboard_users.html?lang=en">Users</a></li>
-                  <li class=""><a href="dashboard_overview.html?lang=en">Overview</a></li>
-                </ul>
-              </li>
-            </ul>
-            
-            
-           
-            <div class="clearfix"></div>
-            
-          </div>
-          <!-- Top navbar END -->
-        <!-- Top navbar END -->
-        <div id="landing_2">
-
-          <!-- Main Body Container -->
-
-          <div class="container">
-            <div class="row">
-
-              <!--LHS begins-->
-              <div class="col-md-10">
-
-
-                <!--Job Poster Details-->
-
-                <div class="box-generic row">
-
-                  <div class="col-md-4">
-                    
-                      <img class="pull-left thumbnail" src="../assets/images/aakashphoto.jpg" width="80"/> 
-                      <div class="media-body innerL">
-                        <span class="lead">Aakash Sethi</span><br/> has asked your help to find a talented</p>
-                      </div>
-                    
-                  </div>
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+			<![endif]-->
+
+			<script src="../assets/components/library/jquery/jquery.min.js?v=v2.3.0"></script>
+			<script src="../assets/components/library/jquery/jquery-migrate.min.js?v=v2.3.0"></script>
+			<script src="../assets/components/library/modernizr/modernizr.js?v=v2.3.0"></script>
+			<script src="../assets/components/plugins/less-js/less.min.js?v=v2.3.0"></script>
+			<script src="../assets/components/modules/admin/charts/flot/assets/lib/excanvas.js?v=v2.3.0"></script>
+			<script src="../assets/components/plugins/browser/ie/ie.prototype.polyfill.js?v=v2.3.0"></script>	<script>if (/*@cc_on!@*/false && document.documentMode === 10) { document.documentElement.className+=' ie ie10'; }</script>
+
+		</head>
+		<body class="document-body ">
+
+			<!-- Main Container Fluid -->
+			<div class="container-fluid menu-hidden sidebar-hidden-phone fluid menu-left">
+
+				<!-- Sidebar menu & content wrapper -->
+				<div id="wrapper">
+					
+					<!-- Sidebar Menu -->
+					<div id="menu" class="hidden-print">
+						
+						<!-- Brand -->
+						<a href="index.html?lang=en" class="appbrand"><span class="text-primary">FLAT</span> <span>KIT</span></a>
+						
+						<!-- Scrollable menu wrapper with Maximum height -->
+						<!-- <div class="slim-scroll" data-scroll-height="800px"> -->
+						<div class="slim-scroll">
+							
+							<!-- Menu Toggle Button -->
+							<button type="button" class="btn btn-navbar">
+								<span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+							</button>
+							<!-- // Menu Toggle Button END -->
+							
+							<!-- Sidebar Profile -->
+							<span class="profile center">
+								<a href="my_account_advanced.html?lang=en"><img class="img-responsive" src="../assets/images/avatar-74x74.jpg" alt="Avatar" /></a>
+							</span>
+							<!-- // Sidebar Profile END -->
+							
+							<!-- Menu -->
+							<ul>
+								
+								<li class="hasSubmenu">
+									<a data-toggle="collapse" href="#menu_dashboard" class="glyphicons dashboard"><i></i><span>Dashboard</span><span class="fa fa-chevron-down"></span></a>
+									<ul class="collapse" id="menu_dashboard">
+										<li class=""><a href="index.html?lang=en">Default</a></li>
+										<li class=""><a href="dashboard_analytics.html?lang=en">Analytics</a></li>
+										<li class=""><a href="dashboard_users.html?lang=en">Users</a></li>
+										<li class=""><a href="dashboard_overview.html?lang=en">Overview</a></li>
+									</ul>
+								</li>
+
+								
+								<li class="hasSubmenu active">
+									<a href="#menu_pages" data-toggle="collapse" class="glyphicons notes"><i></i><span>Pages</span><span class="fa fa-chevron-down"></span></a>
+									<ul class="collapse in" id="menu_pages">
+
+										
+										<li><a href="surveys_multiple.html?lang=en" class="glyphicons circle_question_mark"><i></i>Survey</a></li>
+										<li><a href="events.html?lang=en" class="glyphicons calendar"><i></i>Events</a></li>
+										<li><a href="employees.html?lang=en" class="glyphicons group"><i></i>Employees</a></li>
+										<li><a href="typography.html?lang=en" class="glyphicons font"><i></i>Typography</a></li>
+										<li><a href="calendar.html?lang=en" class="glyphicons calendar"><i></i>Calendar</a></li>
+										
+										
+										<li><a href="error.html?lang=en" class="glyphicons warning_sign"><i></i>Error page</a></li>
+										<!-- <li><a href="blank.html?lang=en" class="glyphicons magic"><i></i>Blank page</a></li> -->
+									</ul>
+								</li>
+
+
+								
+							</ul>
+							<div class="clearfix"></div>
+							<!-- // Menu END -->
+							
+							
+						</div>
+						<!-- // Scrollable Menu wrapper with Maximum Height END -->
+						
+					</div>
+					<!-- // Sidebar Menu END -->
+					<!-- Content -->
+					<div id="content">
+
+						<!-- Top navbar -->
+						<div class="navbar main hidden-print">
+
+							<!-- Menu Toggle Button -->
+							<button type="button" class="btn btn-navbar pull-left visible-xs">
+								<span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+							</button>
+							<!-- // Menu Toggle Button END -->
+							
+							<!-- Full Top Style -->
+							<ul class="topnav pull-left">
+
+								<li class="dropdown dd-1">
+									<a data-toggle="dropdown" class="dropdown-toggle glyphicons dashboard"><i></i>Dashboard <span class="caret"></span></a>
+									<ul class="dropdown-menu pull-left">
+										<li class=""><a href="index.html?lang=en">Default</a></li>
+										<li class=""><a href="dashboard_analytics.html?lang=en">Analytics</a></li>
+										<li class=""><a href="dashboard_users.html?lang=en">Users</a></li>
+										<li class=""><a href="dashboard_overview.html?lang=en">Overview</a></li>
+									</ul>
+								</li>
+							</ul>
+							
+							
+							
+							<div class="clearfix"></div>
+							
+						</div>
+						<!-- Top navbar END -->
+						<!-- Top navbar END -->
+						<div id="landing_2" style="margin-top:10px">
+
+							<!-- Main Body Container -->
+
+							<div class="container">
+								
+								<div class="row">
+
+									<!--LHS begins-->
+									<div class="col-md-10 col-md-offset-1">
+										<div class="row">
+
+											<!--LHS begins-->
+											<div class="col-md-10">
+
+
+												<!--Job Poster Details-->
+
+												<div class="box-generic row">
+
+													<div class="col-md-4">
+														
+														<img class="pull-left thumbnail" src="../assets/images/aakashphoto.jpg" width="80"/> 
+														<div class="media-body innerL">
+															<span class="lead">Aakash Sethi</span><br/> has asked your help to find a talented</p>
+														</div>
+														
+													</div>
 
-                  <div class="col-md-8">
-                    <h2>Communications Associate</h2>
-                    <p> <span class="lead">in <span class="text-inverse">Bangalore</span> with <span class="text-inverse">2+ years</span> Experience. </span><a href="#">View details</a></p>
+													<div class="col-md-8">
+														<h2>Communications Associate</h2>
+														<p> <span class="lead">in <span class="text-inverse">Bangalore</span> with <span class="text-inverse">2+ years</span> Experience. </span><a href="#">View details</a></p>
 
-                  </div>
-
-                </div>
-
-                <!--Job Poster Details END-->
-
-                <!--User Actions-->
-                <br/>
-              
-                <div class="well row">
-              
-                  <div class="col-md-1">
-                    <img class="pull-left img-circle" src="../assets/images/hatimphoto.jpg" width="50"/>
-                  </div>
-
-                  <div class="col-md-5">
-                    <div class="row">
-                      <div class="col-md-1 center">
-                        <span class="fa fa-circle"></span>
-                      </div>
-                      <div class="col-md-11">
-                        
-                        <h4>Hatim Baheranwala</h4>
-                        <p>Getting there</p>
-                        <img src="../assets/images/icons/IconSmall-_0009_Intro-Ghosted.png" width="30"/>&nbsp;
-                        <img src="../assets/images/icons/IconSmall-_0010_FB-Ghosted.png" width="30"/>&nbsp;
-                        <img src="../assets/images/icons/IconSmall-_0011_Forward-Ghosted.png" width="30"/>
-                      </div>
-                    </div>
-
-                  </div>                  
-
-                  <a href="" class=""><div class="col-md-2 talentjambutton center">
-                    
-                      <img src="../assets/images/icons/Icon-_0006_Intro-Outline.png" width="50"/>
-                      <div class="clearfix"></div>
-                      <p class="strong">MAKE AN INTRODUCTION</p>
-
-                  </div></a>
-
-                  <a href="" class=""><div class="col-md-2 talentjambutton center">
-                    
-                      <img src="../assets/images/icons/Icon-_0007_FB-Outline.png" width="50"/>
-                      <div class="clearfix"></div>
-                      <p class="strong">SHARE ON FACEBOOK</p>
-
-                  </div></a>
-
-                  <a href="" class=""><div class="col-md-2 talentjambutton center">
-                    
-                      <img src="../assets/images/icons/Icon-_0008_Forward-Outline.png" width="50"/>
-                      <div class="clearfix"></div>
-                      <p class="strong">FORWARD<br/> BY EMAIL</p>
-
-                  </div></a>
-
-                
-                </div>
-              
-                <!--User Actions END-->
-
-                <!--Jam Board-->
-
-                <!--Header Row-->
-
-                <div class="clearfix"></div>
-                <br/>
-
-                <div class="row tableheader">
-
-                  <div class="col-md-6 center">
-                    <span class="h5 text-muted">Other Champions Jamming for Aakash</span>
-                  </div>
-
-                  <div class="col-md-2 center">
-                    <span class="text-muted">Introductions Made</span>
-                  </div>
-
-                  <div class="col-md-2 center">
-                    <span class="text-muted">Facebook Shares</span>
-                  </div>
-
-                  <div class="col-md-2 center">
-                    <span class="text-muted">Email Forwards</span>
-                  </div>                  
-
-                </div>
-
-
-                <!--Row 1-->
-
-                <div class="clearfix"></div>
-
-                <div class="row tablerow alternate">
-
-                  <div class="col-md-1">
-                    <img class="media-object pull-left img-circle" src="../assets/images/abhinavphoto.jpg" width="40"/> 
-                  </div>
-
-                  <div class="col-md-5">
-                    <div class="row">
-                      <div class="col-md-1 center">
-                        <span class="fa fa-circle text-primary"></span>
-                      </div>
-                      <div class="col-md-5">
-                        
-                        <h5>Abhinav Gujjar</h5>
-                        <p>Do gooder</p>
-                      </div>
-                      <div class="col-md-6">
-
-                        <span class="fa fa-gift fa-2x text-success">
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-2 text-primary center">
-                    <img src="../assets/images/icons/IconSmall-_0001_Intro-Solid.png" width="20"/>x2
-                  </div>
-                  
-                  <div class="col-md-2 text-primary center">
-                    <img src="../assets/images/icons/IconSmall-_0002_FB-Solid.png" width="20"/>
-                  </div>
-
-                  <div class="col-md-2 text-primary center">
-                    <img src="../assets/images/icons/IconSmall-_0000_Forward-Solid.png" width="20"/>x1
-                  </div>
-                </div>
-
-                <!--Row 1 ends-->
-
-                <!--Row 2-->
-
-                <div class="clearfix"></div>
-
-                <div class="row tablerow">
-
-
-                  <div class="col-md-1">
-                    <img class="media-object pull-left img-circle" src="../assets/images/advaitphoto.jpg" width="40"/>
-                  </div>
-
-                  <div class="col-md-5">
-                    <div class="row">
-                      <div class="col-md-1 center">
-                        <span class="fa fa-circle text-primary"></span>
-                      </div>
-                      <div class="col-md-5">
-                        
-                        <h5>Advait Gupt</h5>
-                        <p>Do gooder</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-2 text-inverse center">
-                    <img src="../assets/images/icons/IconSmall-_0009_Intro-Ghosted.png" width="20"/>x0
-                  </div>
-                  
-                  <div class="col-md-2 text-primary center">
-                    <img src="../assets/images/icons/IconSmall-_0002_FB-Solid.png" width="20"/>
-                  </div>
-
-                  <div class="col-md-2 text-primary center">
-                    <img src="../assets/images/icons/IconSmall-_0000_Forward-Solid.png" width="20"/>x2
-                  </div>
-                </div>
-
-                <!--Row 2 ends-->
-                  
-                <!--Row 3-->
-
-                <div class="clearfix"></div>
-
-                <div class="row tablerow alternate">
-
-                  <div class="col-md-1">
-                    <img class="media-object pull-left img-circle" src="../assets/images/ankushphoto.jpg" width="40"/> 
-                  </div>
-
-                  <div class="col-md-5">
-                    <div class="row">
-                      <div class="col-md-1 center">
-                        <span class="fa fa-circle text-primary"></span>
-                        
-                      </div>
-                      <div class="col-md-5">
-                        
-                        <h5>Ankush Sohoni</h5>
-                        <p>Do gooder</p>
-                      </div>
-                      <div class="col-md-6">
-
-                        <span class="fa fa-gift fa-2x text-success">
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-2 text-primary center">
-                    <img src="../assets/images/icons/IconSmall-_0001_Intro-Solid.png" width="20"/>x1
-                  </div>
-                  
-                  <div class="col-md-2 center">
-                    <img src="../assets/images/icons/IconSmall-_0010_FB-Ghosted.png" width="20"/>
-                  </div>
-
-                  <div class="col-md-2 text-inverse center">
-                    <img src="../assets/images/icons/IconSmall-_0011_Forward-Ghosted.png" width="20"/>x0
-                  </div>
-                </div>
-
-                <!--Row 3 ends-->
-
-                <!--Row 4-->
-
-                <div class="clearfix"></div>
-
-                <div class="row tablerow">
-
-                  <div class="col-md-1">
-                    <img class="media-object pull-left img-circle" src="../assets/images/paniphoto.jpg" width="40"/> 
-                  </div>
-
-                  <div class="col-md-5">
-                    <div class="row">
-                      <div class="col-md-1 center">
-                        <span class="fa fa-circle"></span>
-                      </div>
-                      <div class="col-md-5">
-                          
-                        <h5>Nayantary Pani</h5>
-                        <p>Getting there</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  
-                  <div class="col-md-2 text-inverse center">
-                    <img src="../assets/images/icons/IconSmall-_0009_Intro-Ghosted.png" width="20"/>x0
-                  </div>
-                  
-                  <div class="col-md-2 center">
-                    <img src="../assets/images/icons/IconSmall-_0010_FB-Ghosted.png" width="20"/>
-                  </div>
-
-                  <div class="col-md-2 text-inverse center">
-                    <img src="../assets/images/icons/IconSmall-_0011_Forward-Ghosted.png" width="20"/>x0
-                  </div>
-                </div>
-
-                <!--Row 4 ends-->
-
-                <!--Row 5-->
-
-                <div class="clearfix"></div>
-
-                <div class="row tablerow alternate">
-
-                  <div class="col-md-1">
-                    <img class="media-object pull-left img-circle" src="../assets/images/abhijeetphoto.jpg" width="40"/> 
-                  </div>
-
-                  <div class="col-md-5">
-                    <div class="row">
-                      <div class="col-md-1 center">
-                        <span class="fa fa-circle"></span>
-                      </div>
-                      <div class="col-md-5">
-                        <h5>Abhijeet Mehta</h5>
-                        <p>Getting there</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  
-                  <div class="col-md-2 text-inverse center">
-                    <img src="../assets/images/icons/IconSmall-_0009_Intro-Ghosted.png" width="20"/>x0
-                  </div>
-                  
-                  <div class="col-md-2 center">
-                    <img src="../assets/images/icons/IconSmall-_0010_FB-Ghosted.png" width="20"/>
-                  </div>
-
-                  <div class="col-md-2 text-inverse center">
-                    <img src="../assets/images/icons/IconSmall-_0011_Forward-Ghosted.png" width="20"/>x0
-                  </div>
-                </div>
-
-                <!--Row 5 ends-->
-
-                <!--Jam Board ENDS-->
-
-
-                
-              </div>
-
-              <!--LHS Ends-->
-
-              <div class="col-md-2 innerL">
-
-
-                <!--Targets-->
-
-                
-
-                <div class="box-generic">
-
-                  <h3>Jam Targets</h3>
-                  <br/>
-                
-                  <div class="row">
-                    <div class="col-md-12 innerALL text-center">
-                      
-                          
-                            <div data-percent="40" data-size="60" class="easy-pie inline-block primary" data-scale-color="false" data-track-color="#efefef" data-line-width="7">
-                              <div class="value text-center text-primary">
-                                <span class="icon-user-2 fa-2x"></span>
-                              </div>
-                            </div>
-                          
-                          <div class="text-center">
-                            <h5 class="margin-none">5 Introductions<br/><span class="text-inverse">2 Achieved</span></h5>
-                          </div>
-                      
-                    </div>
-                  </div>
-
-                  <br/><br/>
-
-                  <div class="row">
-                    <div class="col-md-12 innerALL text-center">
-                      
-                      <div data-percent="80" data-size="60" class="easy-pie inline-block primary" data-scale-color="false" data-track-color="#efefef" data-line-width="7">
-                        <div class="value text-center text-primary">
-                          <span class="fa fa-facebook fa-2x"></span>
-                        </div>
-                      </div>
-                    
-                      <div class="text-center">
-                        <h5 class="margin-none">5 Facebook shares<br/><span class="text-inverse">4 Achieved</span></h5>
-                      </div>
-                      
-                    </div>
-                  </div>
-
-                  <br/><br/>
-
-                  <div class="row">
-
-                    <div class="col-md-12 innerALL text-center">
-                      <div data-percent="30" data-size="60" class="easy-pie inline-block primary" data-scale-color="false" data-track-color="#efefef" data-line-width="7">
-                        <div class="value text-center text-primary">
-                          <span class="fa fa-mail-forward fa-2x"></span>
-                        </div>
-                      </div>
-                      <div class="text-center">
-                        <h5 class="margin-none">10 Email forwards<br/><span class="text-inverse">3 Achieved</span></h5>
-                      </div>                      
-                    </div>
-
-                  </div>
-                </div>
-
-                <!--Target row Ends-->
-
-                <br/><br/>
-
-
-              </div>
-
-            </div>
-          </div>    
-
-</div>
-
-
-
-  		</div>	
-  	</div>
-  	<!-- // Content END -->
-
-
-
-  </div>
-  <!-- // Main Container Fluid END -->
-
-
-  <!-- Global -->
-  <script>
-  	var basePath = '',
-  	commonPath = '../assets/',
-  	rootPath = '../',
-  	DEV = false,
-  	componentsPath = '../assets/components/';
-
-  	var primaryColor = '#ff9000',
-    dangerColor ='#ff6500',
-    successColor = '#5faa01',
-  	infoColor = '#0c61b9',
-  	warningColor = '#ab7a4b',
-  	inverseColor = '#45484d';
-
-  	var themerPrimaryColor = primaryColor;
-  </script>
-
-  <script src="../assets/components/library/bootstrap/js/bootstrap.min.js?v=v2.3.0"></script>
-  <script src="../assets/components/plugins/breakpoints/breakpoints.js?v=v2.3.0"></script>
-  <script src="../assets/components/core/js/core.init.js?v=v2.3.0"></script>
-  <script src="../assets/components/plugins/holder/holder.js?v=v2.3.0"></script>
-  <script src="../assets/components/modules/admin/charts/easy-pie/assets/lib/js/jquery.easy-pie-chart.js?v=v2.3.0"></script>
-  <script src="../assets/components/modules/admin/charts/easy-pie/assets/custom/easy-pie.init.js?v=v2.3.0"></script>
-
-</body>
-</html>
+													</div>
+
+												</div>
+
+												<!--Job Poster Details END-->
+
+												<!--User Actions-->
+												<br/>
+												
+												<div class="well row">
+													
+													<div class="col-md-1">
+														<img class="pull-left img-circle" src="../assets/images/hatimphoto.jpg" width="50"/>
+													</div>
+
+													<div class="col-md-5">
+														<div class="row">
+															<div class="col-md-1 center">
+																<span class="fa fa-circle"></span>
+															</div>
+															<div class="col-md-11">
+																
+																<h4>Hatim Baheranwala</h4>
+																<p>Getting there</p>
+																<img src="../assets/images/icons/IconSmall-_0009_Intro-Ghosted.png" width="30"/>&nbsp;
+																<img src="../assets/images/icons/IconSmall-_0010_FB-Ghosted.png" width="30"/>&nbsp;
+																<img src="../assets/images/icons/IconSmall-_0011_Forward-Ghosted.png" width="30"/>
+															</div>
+														</div>
+
+													</div>                  
+
+													<a href="" class=""><div class="col-md-2 talentjambutton center">
+														
+														<img src="../assets/images/icons/Icon-_0006_Intro-Outline.png" width="50"/>
+														<div class="clearfix"></div>
+														<p class="strong">MAKE AN INTRODUCTION</p>
+
+													</div></a>
+
+													<a href="" class=""><div class="col-md-2 talentjambutton center">
+														
+														<img src="../assets/images/icons/Icon-_0007_FB-Outline.png" width="50"/>
+														<div class="clearfix"></div>
+														<p class="strong">SHARE ON FACEBOOK</p>
+
+													</div></a>
+
+													<a href="" class=""><div class="col-md-2 talentjambutton center">
+														
+														<img src="../assets/images/icons/Icon-_0008_Forward-Outline.png" width="50"/>
+														<div class="clearfix"></div>
+														<p class="strong">FORWARD<br/> BY EMAIL</p>
+
+													</div></a>
+
+													
+												</div>
+												
+												<!--User Actions END-->
+
+												<!--Jam Board-->
+
+												<!--Header Row-->
+
+												<div class="clearfix"></div>
+												<br/>
+
+												<div class="row tableheader">
+
+													<div class="col-md-6 center">
+														<span class="h5 text-muted">Other Champions Jamming for Aakash</span>
+													</div>
+
+													<div class="col-md-2 center">
+														<span class="text-muted">Introductions Made</span>
+													</div>
+
+													<div class="col-md-2 center">
+														<span class="text-muted">Facebook Shares</span>
+													</div>
+
+													<div class="col-md-2 center">
+														<span class="text-muted">Email Forwards</span>
+													</div>                  
+
+												</div>
+
+
+												<!--Row 1-->
+
+												<div class="clearfix"></div>
+
+												<div class="row tablerow alternate">
+
+													<div class="col-md-1">
+														<img class="media-object pull-left img-circle" src="../assets/images/abhinavphoto.jpg" width="40"/> 
+													</div>
+
+													<div class="col-md-5">
+														<div class="row">
+															<div class="col-md-1 center">
+																<span class="fa fa-circle text-primary"></span>
+															</div>
+															<div class="col-md-5">
+																
+																<h5>Abhinav Gujjar</h5>
+																<p>Do gooder</p>
+															</div>
+															<div class="col-md-6">
+
+																<span class="fa fa-gift fa-2x text-success">
+																</div>
+															</div>
+														</div>
+
+														<div class="col-md-2 text-primary center">
+															<img src="../assets/images/icons/IconSmall-_0001_Intro-Solid.png" width="20"/>x2
+														</div>
+														
+														<div class="col-md-2 text-primary center">
+															<img src="../assets/images/icons/IconSmall-_0002_FB-Solid.png" width="20"/>
+														</div>
+
+														<div class="col-md-2 text-primary center">
+															<img src="../assets/images/icons/IconSmall-_0000_Forward-Solid.png" width="20"/>x1
+														</div>
+													</div>
+
+													<!--Row 1 ends-->
+
+													<!--Row 2-->
+
+													<div class="clearfix"></div>
+
+													<div class="row tablerow">
+
+
+														<div class="col-md-1">
+															<img class="media-object pull-left img-circle" src="../assets/images/advaitphoto.jpg" width="40"/>
+														</div>
+
+														<div class="col-md-5">
+															<div class="row">
+																<div class="col-md-1 center">
+																	<span class="fa fa-circle text-primary"></span>
+																</div>
+																<div class="col-md-5">
+																	
+																	<h5>Advait Gupt</h5>
+																	<p>Do gooder</p>
+																</div>
+															</div>
+														</div>
+
+														<div class="col-md-2 text-inverse center">
+															<img src="../assets/images/icons/IconSmall-_0009_Intro-Ghosted.png" width="20"/>x0
+														</div>
+														
+														<div class="col-md-2 text-primary center">
+															<img src="../assets/images/icons/IconSmall-_0002_FB-Solid.png" width="20"/>
+														</div>
+
+														<div class="col-md-2 text-primary center">
+															<img src="../assets/images/icons/IconSmall-_0000_Forward-Solid.png" width="20"/>x2
+														</div>
+													</div>
+
+													<!--Row 2 ends-->
+													
+													<!--Row 3-->
+
+													<div class="clearfix"></div>
+
+													<div class="row tablerow alternate">
+
+														<div class="col-md-1">
+															<img class="media-object pull-left img-circle" src="../assets/images/ankushphoto.jpg" width="40"/> 
+														</div>
+
+														<div class="col-md-5">
+															<div class="row">
+																<div class="col-md-1 center">
+																	<span class="fa fa-circle text-primary"></span>
+																	
+																</div>
+																<div class="col-md-5">
+																	
+																	<h5>Ankush Sohoni</h5>
+																	<p>Do gooder</p>
+																</div>
+																<div class="col-md-6">
+
+																	<span class="fa fa-gift fa-2x text-success">
+																	</div>
+																</div>
+															</div>
+
+															<div class="col-md-2 text-primary center">
+																<img src="../assets/images/icons/IconSmall-_0001_Intro-Solid.png" width="20"/>x1
+															</div>
+															
+															<div class="col-md-2 center">
+																<img src="../assets/images/icons/IconSmall-_0010_FB-Ghosted.png" width="20"/>
+															</div>
+
+															<div class="col-md-2 text-inverse center">
+																<img src="../assets/images/icons/IconSmall-_0011_Forward-Ghosted.png" width="20"/>x0
+															</div>
+														</div>
+
+														<!--Row 3 ends-->
+
+														<!--Row 4-->
+
+														<div class="clearfix"></div>
+
+														<div class="row tablerow">
+
+															<div class="col-md-1">
+																<img class="media-object pull-left img-circle" src="../assets/images/paniphoto.jpg" width="40"/> 
+															</div>
+
+															<div class="col-md-5">
+																<div class="row">
+																	<div class="col-md-1 center">
+																		<span class="fa fa-circle"></span>
+																	</div>
+																	<div class="col-md-5">
+																		
+																		<h5>Nayantary Pani</h5>
+																		<p>Getting there</p>
+																	</div>
+																</div>
+															</div>
+
+															
+															<div class="col-md-2 text-inverse center">
+																<img src="../assets/images/icons/IconSmall-_0009_Intro-Ghosted.png" width="20"/>x0
+															</div>
+															
+															<div class="col-md-2 center">
+																<img src="../assets/images/icons/IconSmall-_0010_FB-Ghosted.png" width="20"/>
+															</div>
+
+															<div class="col-md-2 text-inverse center">
+																<img src="../assets/images/icons/IconSmall-_0011_Forward-Ghosted.png" width="20"/>x0
+															</div>
+														</div>
+
+														<!--Row 4 ends-->
+
+														<!--Row 5-->
+
+														<div class="clearfix"></div>
+
+														<div class="row tablerow alternate">
+
+															<div class="col-md-1">
+																<img class="media-object pull-left img-circle" src="../assets/images/abhijeetphoto.jpg" width="40"/> 
+															</div>
+
+															<div class="col-md-5">
+																<div class="row">
+																	<div class="col-md-1 center">
+																		<span class="fa fa-circle"></span>
+																	</div>
+																	<div class="col-md-5">
+																		<h5>Abhijeet Mehta</h5>
+																		<p>Getting there</p>
+																	</div>
+																</div>
+															</div>
+
+															
+															<div class="col-md-2 text-inverse center">
+																<img src="../assets/images/icons/IconSmall-_0009_Intro-Ghosted.png" width="20"/>x0
+															</div>
+															
+															<div class="col-md-2 center">
+																<img src="../assets/images/icons/IconSmall-_0010_FB-Ghosted.png" width="20"/>
+															</div>
+
+															<div class="col-md-2 text-inverse center">
+																<img src="../assets/images/icons/IconSmall-_0011_Forward-Ghosted.png" width="20"/>x0
+															</div>
+														</div>
+
+														<!--Row 5 ends-->
+
+														<!--Jam Board ENDS-->
+
+
+														
+													</div>
+
+													<!--LHS Ends-->
+
+													<div class="col-md-2 innerL">
+
+
+														<!--Targets-->
+
+														
+
+														<div class="box-generic">
+
+															<h3>Jam Targets</h3>
+															<br/>
+															
+															<div class="row">
+																<div class="col-md-12 innerALL text-center">
+																	
+																	
+																	<div data-percent="40" data-size="60" class="easy-pie inline-block primary" data-scale-color="false" data-track-color="#efefef" data-line-width="7">
+																		<div class="value text-center text-primary">
+																			<span class="icon-user-2 fa-2x"></span>
+																		</div>
+																	</div>
+																	
+																	<div class="text-center">
+																		<h5 class="margin-none">5 Introductions<br/><span class="text-inverse">2 Achieved</span></h5>
+																	</div>
+																	
+																</div>
+															</div>
+
+															<br/><br/>
+
+															<div class="row">
+																<div class="col-md-12 innerALL text-center">
+																	
+																	<div data-percent="80" data-size="60" class="easy-pie inline-block primary" data-scale-color="false" data-track-color="#efefef" data-line-width="7">
+																		<div class="value text-center text-primary">
+																			<span class="fa fa-facebook fa-2x"></span>
+																		</div>
+																	</div>
+																	
+																	<div class="text-center">
+																		<h5 class="margin-none">5 Facebook shares<br/><span class="text-inverse">4 Achieved</span></h5>
+																	</div>
+																	
+																</div>
+															</div>
+
+															<br/><br/>
+
+															<div class="row">
+
+																<div class="col-md-12 innerALL text-center">
+																	<div data-percent="30" data-size="60" class="easy-pie inline-block primary" data-scale-color="false" data-track-color="#efefef" data-line-width="7">
+																		<div class="value text-center text-primary">
+																			<span class="fa fa-mail-forward fa-2x"></span>
+																		</div>
+																	</div>
+																	<div class="text-center">
+																		<h5 class="margin-none">10 Email forwards<br/><span class="text-inverse">3 Achieved</span></h5>
+																	</div>                      
+																</div>
+
+															</div>
+														</div>
+
+														<!--Target row Ends-->
+
+														<br/><br/>
+
+
+													</div>
+
+												</div>
+												
+												<!--marker-->
+											</div>    
+										</div>
+									</div>
+
+								</div>
+
+
+
+							</div>	
+						</div>
+						<!-- // Content END -->
+
+
+
+					</div>
+					<!-- // Main Container Fluid END -->
+
+
+					<!-- Global -->
+					<script>
+						var basePath = '',
+						commonPath = '../assets/',
+						rootPath = '../',
+						DEV = false,
+						componentsPath = '../assets/components/';
+
+						var primaryColor = '#ff9000',
+						dangerColor ='#ff6500',
+						successColor = '#5faa01',
+						infoColor = '#0c61b9',
+						warningColor = '#ab7a4b',
+						inverseColor = '#45484d';
+
+						var themerPrimaryColor = primaryColor;
+					</script>
+
+					<script src="../assets/components/library/bootstrap/js/bootstrap.min.js?v=v2.3.0"></script>
+					<script src="../assets/components/plugins/breakpoints/breakpoints.js?v=v2.3.0"></script>
+					<script src="../assets/components/core/js/core.init.js?v=v2.3.0"></script>
+					<script src="../assets/components/plugins/holder/holder.js?v=v2.3.0"></script>
+					<script src="../assets/components/modules/admin/charts/easy-pie/assets/lib/js/jquery.easy-pie-chart.js?v=v2.3.0"></script>
+					<script src="../assets/components/modules/admin/charts/easy-pie/assets/custom/easy-pie.init.js?v=v2.3.0"></script>
+
+				</body>
+				</html>
