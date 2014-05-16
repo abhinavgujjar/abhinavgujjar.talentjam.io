@@ -54,3 +54,13 @@
 
 	background-color: #f4f4f4;
 }
+
+.logo_header {
+	 font-family: Roboto, sans-serif;
+	 font-weight: bold;
+	 font-size: 20px;
+}
+
+.logo_sub {
+	 color: white;
+}
